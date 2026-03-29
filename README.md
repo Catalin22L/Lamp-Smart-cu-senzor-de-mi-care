@@ -1,1 +1,13 @@
-# Lamp-Smart-cu-senzor-de-mi-care
+# Lamp-Smart-cu-senzor
+Descriere Proiect
+Lampa cu senzor de mișcare este o soluție compactă, eficientă și automatizată, creată special pentru iluminarea spațiilor temporare de dimensiuni reduse, precum șifoniere, dressing-uri, rafturi sau debarale. Proiectul este conceput pentru a economisi energie, oferind o experiență modernă prin utilizarea de componente electronice accesibile și alimentare standard pe baterii.
+Componente HardwarePentru realizarea acestui proiect au fost utilizate următoarele componente:3 x Baterii RL6 1 x Convertor DC-DC 1 x Senzor PIR (model SR505) Bandă LED 
+Detalii Tehnice și FuncționareAlimentare: Sistemul este alimentat de 3 baterii RL6 conectate în serie, plasate în suporți speciali, care oferă o tensiune inițială de 4.5V.Conversia Tensiunii: Pentru a alimenta banda LED, un convertor DC-DC eficient și compact preia tensiunea de 4.5V și o ridică la 12V.Iluminare: Banda LED funcționează la tensiunea de 12V obținută de la convertor și are un consum de 200mW.Senzor de mișcare: Senzorul PIR detectează radiația infraroșie emisă de sursele de căldură. Acesta are un unghi de acționare cuprins între 90 de grade și 180 de grade, activând lampa doar atunci când detectează mișcare în apropiere.Carcasă: Carcasa a fost proiectată 3D folosind software-ul Fusion 360 și a fost realizată cu ajutorul unei imprimante 3D. Aceasta are dimensiuni reduse de 36 x 265 x 27 mm
+# Pași de Asamblare
+Pentru a construi lampa cu senzor de mișcare, urmează acești pași bazați pe schema electrică și designul proiectului:
+1.Pregătirea sursei de alimentare: Conectează cele 3 baterii RL6 în serie introducându-le în suporții speciali, asigurând astfel o conexiune sigură și o tensiune de ieșire de 4,5V.
+2.Conectarea convertorului DC-DC: Leagă ansamblul de baterii la convertorul DC-DC conectând borna pozitivă la intrarea VIN și borna negativă la GND. Convertorul va prelua tensiunea de 4,5V și o va ridica la 12V
+3.Cablarea senzorului PIR și a benzii LED: * Conectează ieșirea pozitivă (V+) a convertorului la pinul de alimentare (V+) al senzorului PIR și la borna pozitivă a benzii LED
+Conectează ieșirea de masă (GND) a convertorului la pinul corespondent (V-) al senzorului PIR.Conectează pinul de semnal (SIG) al senzorului PIR la borna negativă a benzii LED, permițând astfel senzorului să închidă circuitul și să aprindă banda (care are un consum de 200mW) la detectarea mișcării.
+4.Pregătirea carcasei: Printează la o imprimantă 3D carcasa proiectată în Fusion 360, respectând dimensiunile compacte de 36 x 265 x 27 mm.
+5.Montajul final: Introdu și fixează cu grijă componentele electronice cablate în carcasa printată 3D, obținând astfel sistemul final.
